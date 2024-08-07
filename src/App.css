@@ -40,3 +40,32 @@
 .read-the-docs {
   color: #888;
 }
+body{
+  background-image: url(https://plus.unsplash.com/premium_photo-1681533650863-6a3cd8a77977?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bm8lMjBjcmVkaXR8ZW58MHx8MHx8fDA%3D);
+  
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position:center ;
+  height: fit-content;
+  
+  font-size: large;
+  color: rgb(255, 254, 254);
+  font-style: italic;
+}
+.App{background-color: transparent;}
+.gold{
+  color: gold;
+  background-color: black;
+  background-position-y: top;
+}
+.card {
+  background-image: url(https://t.pimg.jp/049/768/292/1/49768292.jpg);
+  background-position: center;
+  color: black;
+  width: 50px;
+  border-radius: 40px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}

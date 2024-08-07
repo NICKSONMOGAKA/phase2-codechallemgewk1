@@ -25,10 +25,13 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Bank of Flatiron</h1>
+      <h1 className='card'></h1>
+      <h1 className='gold'>$-BANK OF FLATIRON-$</h1>  
+      
       <SearchBar setSearchTerm={setSearchTerm} />
       <TransactionForm addTransaction={addTransaction} />
       <TransactionTable transactions={filteredTransactions} />
+      
     </div>
   );
 }
