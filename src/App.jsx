@@ -10,7 +10,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    fetch('https://bank-of-flatiron-instructions-rose.vercel.app/')
+    fetch('https://backend-25xh.vercel.app/transactions')
       .then((response) => response.json())
       .then((data) => setTransactions(data));
   }, []);
