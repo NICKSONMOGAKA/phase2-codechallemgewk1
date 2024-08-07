@@ -10,7 +10,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    fetch('https://backend-25xh.vercel.app/transactions')
+    fetch('https://backend-sable-one.vercel.app/transactions')
       .then((response) => response.json())
       .then((data) => setTransactions(data));
   }, []);
