@@ -10,7 +10,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:3000/transactions')
+    fetch('https://phase2-codechallengewk1.vercel.app/')
       .then((response) => response.json())
       .then((data) => setTransactions(data));
   }, []);
